@@ -7,9 +7,10 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  titleControl = new FormControl();
+  inputControl = new FormControl();
 
-  submitBook() {
-    console.log(this.titleControl);
+  submit() {
+    // make a call to your backend
+    console.log(this.inputControl);
   }
 }
