@@ -8,4 +8,8 @@ import { FormControl } from '@angular/forms';
 })
 export class AppComponent {
   titleControl = new FormControl();
+
+  submitBook() {
+    console.log(this.titleControl);
+  }
 }
